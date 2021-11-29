@@ -17,7 +17,7 @@ if (person.nacionality === "Brasileira") { console.log("Brasileiro") };
 [X] Faça um programa que gere um número aleatório entre 1 e 10, esse número é o número 'ganhador'. Então ele também irá gerar um número aleatório entre 1 e 10, e verifica se a pessoa ganhou ou não. Em caso de ter ganhado, mostra o prêmio, se não ganhou, mostra outra mensagem.
 const number = 4;
 const randomNumber = Math.round(Math.random() * (10 - 1) + 1)
-randomNumber === number ? console.log(number + " é igual a " + randomNumber + " parabénsss") : console.log("não foi dessa vez");
+randomNumber === number ? console.log(numbe r + " é igual a " + randomNumber + " parabénsss") : console.log("não foi dessa vez");
 
 [X] Faça um programa que receba 3 números inteiros, e deve imprimir, qual é o maior, qual é o menor.
 const numbers = [3, 2, 5]
