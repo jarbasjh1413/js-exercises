@@ -85,17 +85,16 @@ pesquisar(peoples);
 
 - Você deve enviar como argumentos da função - Valor inicial investido - Valor atual do investimento - Tempo em meses, que o valor está investido
 - A função deve RETORNAR a taxa de juros, já formatada. Ex: 2,5%. Siga a formula desse vídeo para te auxiliar com o cálculo.
-const calculateInterestRate = (initValue,actualInvest,timeBased)=>{
-    let interestRate= ((actualInvest-initValue)/(initValue * timeBased)).toFixed(2)
- 
-    interestRate= `${interestRate}%`
-      return interestRate
-   
-}
-console.log(calculateInterestRate(50,100,12))
-Cálculo taxa = juros(Valor atual do investimento - Valor inicial investido) / Valor inicial investido * tempo
+const calculateInterestRate = (initValue, actualInvest, timeBased) => {
+    let interestRate = ((actualInvest - initValue) / (initValue * timeBased) * 100).toFixed(2)
 
-[ ] Escreva um programa onde, você cria uma função geradora de desconto. 
+    interestRate = `${interestRate}%`
+    return interestRate
+
+}
+console.log(calculateInterestRate(50, 100, 12))
+
+[X] Escreva um programa onde, você cria uma função geradora de desconto. 
 
 - A função aceita 4 parâmetros (Nome do cliente, valor total da compra, um booleano que diz se é a primeira compra do cliente ou não, um booleando que diz se o cliente vai pagar a vista ou não)
 
